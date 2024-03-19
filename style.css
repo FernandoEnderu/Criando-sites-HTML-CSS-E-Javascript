@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -10,6 +13,35 @@ body {
     color: #F6F6F6;
 }
 
-.destaqueTitulo {
-    color: rgb(66, 135, 190);
+.destaqueAzulTitulo {
+    color: rgb(114, 192, 255);
+}
+
+.destaqueRosaTitulo {
+    color: rgb(255, 137, 235);
+}
+
+.presentation {
+    display: flex;
+    margin: 7%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.presentation__content {
+    width: 500px;
+}
+
+.presentation__content__text {    
+    font-size: 17px;
+    font-family: "RocknRoll One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.presentation__content__title {
+    font-size: 30px;
+    font-family: "Holtwood One SC", serif;
+    font-weight: 400;
+    font-style: normal;
 }
